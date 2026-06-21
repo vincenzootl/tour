@@ -20,6 +20,92 @@ a{color:inherit} button,input{font:inherit}.wrap{width:min(var(--max),calc(100% 
 .section{padding:42px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:20px}.section h2{margin:0;font-size:clamp(30px,3.3vw,50px);line-height:.96;letter-spacing:-.055em}.lead{color:var(--muted);max-width:760px;margin:10px 0 0;line-height:1.58}.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}.day-card,.place-card,.museum-card,.local-card,.beer-card,.transport-card,.info-card{background:rgba(255,253,250,.82);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow2);overflow:hidden}.day-card{grid-column:span 6}.day-card.hidden,.place-card.hidden,.museum-card.hidden,.local-card.hidden,.beer-card.hidden,.transport-card.hidden{display:none}.day-top{padding:25px 25px 21px;border-bottom:1px solid var(--line);background:linear-gradient(135deg,rgba(139,63,45,.09),rgba(255,255,255,.18))}.meta{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}.badge{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:6px 10px;background:rgba(91,111,74,.1);color:var(--olive);font-size:12px;font-weight:900}.badge.alt{background:rgba(64,95,123,.1);color:var(--blue)}.badge.gold{background:rgba(191,139,58,.14);color:#8a6121}.day-card h3{font-size:26px;line-height:1.02;letter-spacing:-.04em;margin:0}.summary{margin:10px 0 0;color:var(--muted);line-height:1.48}.blocks{padding:18px 22px 23px}.block{display:grid;grid-template-columns:118px 1fr;gap:14px;padding:15px 0;border-bottom:1px dashed var(--line)}.block:last-child{border-bottom:0}.time{font-weight:900;color:var(--brand);font-size:13px}.block h4{margin:0 0 6px;font-size:16px}.block p{margin:0;color:var(--muted);line-height:1.45}.eat{margin-top:14px;padding:15px;border:1px solid var(--line);border-radius:19px;background:rgba(255,255,255,.54)}.eat strong{display:block;margin-bottom:7px}.eat ul{margin:0;padding-left:18px;color:var(--muted);line-height:1.5}.maplinks{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.maplinks a,.link-pill{border:1px solid var(--line);border-radius:999px;padding:8px 10px;background:rgba(255,255,255,.68);text-decoration:none;font-weight:850;font-size:13px}.link-pill.dark{background:var(--ink);color:#fff;border-color:var(--ink)}
 .place-card,.museum-card,.local-card,.beer-card,.transport-card,.info-card{padding:22px}.places-grid .place-card,.museums-grid .museum-card,.locals-grid .local-card,.beer-grid .beer-card{grid-column:span 4}.transport-grid .transport-card{grid-column:span 4}.place-card h3,.museum-card h3,.local-card h3,.beer-card h3,.transport-card h3,.info-card h3{margin:10px 0 8px;font-size:21px;letter-spacing:-.03em}.muted{color:var(--muted);line-height:1.5}.small{font-size:13px}.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:13px}.tag{font-size:12px;font-weight:900;color:var(--muted);background:rgba(255,255,255,.65);border:1px solid var(--line);border-radius:999px;padding:5px 8px}.card-foot{margin-top:15px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}.museum-card{position:relative}.museum-card:before{content:"";position:absolute;top:0;left:0;right:0;height:5px;background:linear-gradient(90deg,var(--brand),var(--gold),var(--blue))}.beer-card{position:relative;background:linear-gradient(180deg,rgba(255,253,250,.92),rgba(255,247,233,.84))}.beer-card:before{content:"";position:absolute;top:0;left:0;right:0;height:5px;background:linear-gradient(90deg,var(--gold),var(--brand2),var(--brand))}.transport-card:before{content:"";display:block;width:42px;height:42px;border-radius:16px;background:rgba(64,95,123,.1);margin-bottom:8px}.info-card.span4{grid-column:span 4}.info-card.span5{grid-column:span 5}.info-card.span6{grid-column:span 6}.info-card.span7{grid-column:span 7}.info-card.span8{grid-column:span 8}.info-card.span12{grid-column:1/-1}.table{width:100%;border-collapse:collapse;border:1px solid var(--line);border-radius:17px;overflow:hidden;background:rgba(255,255,255,.56)}.table th,.table td{text-align:left;padding:12px;border-bottom:1px solid var(--line);vertical-align:top}.table tr:last-child td{border-bottom:0}.table th{font-size:13px;color:var(--muted);background:rgba(31,28,25,.04)}.checklist{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:14px}.check{display:flex;gap:10px;align-items:flex-start;border:1px solid var(--line);border-radius:16px;padding:12px;background:rgba(255,255,255,.5)}.check input{margin-top:3px;accent-color:var(--brand)}.source-list{columns:2;column-gap:34px;margin:12px 0 0;padding-left:20px;color:var(--muted);line-height:1.55}.source-list a{color:var(--brand);font-weight:800}.no-results{display:none;padding:18px;border-radius:18px;background:rgba(255,255,255,.72);border:1px solid var(--line);color:var(--muted)}.footer{padding:38px 0 58px;color:var(--muted)}.print-note{display:none}.section.alt{background:linear-gradient(180deg,transparent,rgba(255,255,255,.25),transparent)}
 @media(max-width:960px){.wrap{width:min(var(--max),calc(100% - 28px))}.hero-shell{grid-template-columns:1fr}.hero-main{min-height:auto;padding:30px}.toolbar-inner{flex-direction:column;align-items:stretch}.filters{width:100%}.day-card,.places-grid .place-card,.museums-grid .museum-card,.locals-grid .local-card,.transport-grid .transport-card,.info-card.span4,.info-card.span5,.info-card.span6,.info-card.span7,.info-card.span8{grid-column:1/-1}.block{grid-template-columns:1fr;gap:4px}.checklist{grid-template-columns:1fr}.source-list{columns:1}.hero-bento{grid-template-columns:1fr}.mini.wide{grid-column:auto}}
+
+/* Smartphone-first refinements */
+.mobile-quicknav,.mobile-day-rail{display:none}
+@media(max-width:820px){
+  body{padding-bottom:calc(72px + env(safe-area-inset-bottom));-webkit-text-size-adjust:100%;}
+  .wrap{width:min(var(--max),calc(100% - 24px));}
+  .hero{padding:12px 0 16px;}
+  .hero-shell{gap:12px;}
+  .hero-main{border-radius:28px;padding:22px 18px 18px;min-height:auto;}
+  .hero h1{font-size:clamp(42px,14.5vw,64px);line-height:.9;letter-spacing:-.07em;margin:16px 0 12px;}
+  .subtitle{font-size:16px;line-height:1.48;}
+  .kicker{font-size:11px;padding:7px 10px;max-width:100%;white-space:normal;}
+  .hero-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:18px;}
+  .hero-actions .btn{padding:12px 10px;min-height:46px;border-radius:15px;font-size:13px;text-align:center;}
+  .hero-actions button.btn{grid-column:1/-1;}
+  .hero-note{margin-top:14px;padding:14px;border-radius:18px;font-size:13.5px;}
+  .map-card{border-radius:28px;padding:20px;min-height:220px;}
+  .map-card h2{font-size:31px;margin:14px 0 8px;letter-spacing:-.045em;}
+  .map-card p{font-size:14px;}
+  .hero-side{gap:12px;}
+  .hero-bento{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;}
+  .mini{padding:14px;min-height:92px;border-radius:20px;}
+  .mini strong{font-size:23px;}
+  .mini span{font-size:12px;line-height:1.28;}
+  .mini.wide{grid-column:1/-1;min-height:82px;}
+  .toolbar{top:0;}
+  .toolbar-inner{padding:9px 0 10px;gap:8px;}
+  .search{padding:10px 12px;border-radius:16px;flex:initial;}
+  .search input{font-size:16px;}
+  .filters{width:calc(100% + 24px);margin:0 -12px;padding:0 12px 4px;gap:7px;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch;}
+  .filters::-webkit-scrollbar{display:none;}
+  .chip{padding:10px 12px;min-height:42px;font-size:12.5px;scroll-snap-align:start;}
+  .section{padding:30px 0;}
+  .section-head{display:block;margin-bottom:14px;}
+  .section h2{font-size:33px;line-height:.98;}
+  .lead{font-size:14.5px;line-height:1.5;}
+  .grid{gap:12px;}
+  .day-card,.place-card,.museum-card,.local-card,.beer-card,.transport-card,.info-card{border-radius:22px;box-shadow:0 10px 26px rgba(55,36,22,.075);}
+  .day-top{padding:18px 16px 16px;}
+  .day-card h3{font-size:22px;line-height:1.07;}
+  .summary{font-size:14.5px;line-height:1.48;}
+  .meta{gap:6px;margin-bottom:10px;}
+  .badge{font-size:11px;padding:5px 8px;}
+  .blocks{padding:10px 14px 16px;}
+  .block{padding:13px 0;gap:6px;}
+  .time{font-size:12px;border-radius:999px;padding:5px 9px;background:rgba(139,63,45,.08);width:max-content;}
+  .block h4{font-size:16px;line-height:1.25;}
+  .block p,.muted{font-size:14px;line-height:1.5;}
+  .small{font-size:12.5px;}
+  .eat{padding:13px;border-radius:16px;margin-top:9px;}
+  .eat ul{padding-left:16px;}
+  .maplinks{display:grid;grid-template-columns:1fr 1fr;gap:8px;}
+  .maplinks a,.link-pill{display:flex;min-height:42px;align-items:center;justify-content:center;padding:10px;border-radius:14px;font-size:12.5px;text-align:center;}
+  .place-card,.museum-card,.local-card,.beer-card,.transport-card,.info-card{padding:17px;}
+  .place-card h3,.museum-card h3,.local-card h3,.beer-card h3,.transport-card h3,.info-card h3{font-size:19px;line-height:1.12;}
+  .tags{gap:5px;margin-top:10px;}
+  .tag{font-size:11px;padding:5px 7px;}
+  .table{font-size:13px;display:block;overflow-x:auto;-webkit-overflow-scrolling:touch;}
+  .table th,.table td{padding:10px;min-width:135px;}
+  .checklist{gap:8px;}
+  .source-list li{break-inside:avoid;margin-bottom:8px;}
+  section[id],article[id]{scroll-margin-top:138px;}
+  .mobile-day-rail{display:flex;gap:8px;overflow:auto;margin:0 -12px 14px;padding:2px 12px 9px;-webkit-overflow-scrolling:touch;}
+  .mobile-day-rail::-webkit-scrollbar{display:none;}
+  .mobile-day-rail a{flex:0 0 auto;text-decoration:none;border:1px solid var(--line);background:rgba(255,255,255,.76);border-radius:999px;min-width:46px;min-height:42px;display:flex;align-items:center;justify-content:center;font-weight:900;box-shadow:0 6px 18px rgba(55,36,22,.06);}
+  .mobile-quicknav{display:grid;position:fixed;left:0;right:0;bottom:0;z-index:60;grid-template-columns:repeat(4,1fr);gap:6px;padding:8px 10px calc(8px + env(safe-area-inset-bottom));background:rgba(255,250,241,.92);border-top:1px solid var(--line);backdrop-filter:blur(18px);box-shadow:0 -10px 28px rgba(55,36,22,.12);}
+  .mobile-quicknav a{text-decoration:none;background:rgba(31,28,25,.06);border:1px solid var(--line);border-radius:16px;min-height:44px;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:12.5px;}
+}
+@media(max-width:430px){
+  .wrap{width:min(var(--max),calc(100% - 20px));}
+  .hero-main{padding:20px 16px 16px;border-radius:24px;}
+  .hero h1{font-size:clamp(40px,15vw,58px);}
+  .hero-actions{grid-template-columns:1fr;}
+  .hero-actions button.btn{grid-column:auto;}
+  .map-card{padding:18px;border-radius:24px;min-height:205px;}
+  .map-card h2{font-size:28px;}
+  .mini{min-height:86px;padding:13px;}
+  .mini strong{font-size:21px;}
+  .section h2{font-size:30px;}
+  .day-top{padding:16px 14px 14px;}
+  .blocks{padding:8px 12px 14px;}
+  .maplinks{grid-template-columns:1fr;}
+  .mobile-quicknav{gap:5px;padding-left:8px;padding-right:8px;}
+  .mobile-quicknav a{font-size:12px;border-radius:14px;}
+}
+
 @media print{body{background:white}.toolbar,.hero-actions,.filters,.search,.btn,.link-pill{display:none!important}.wrap{width:100%}.hero{padding:0 0 18px}.hero-shell{display:block}.hero-main,.map-card,.day-card,.place-card,.museum-card,.local-card,.beer-card,.transport-card,.info-card{box-shadow:none;background:white;break-inside:avoid}.day-card{grid-column:1/-1;margin-bottom:12px}.print-note{display:block}}
 </style>
 </head>
@@ -31,7 +117,7 @@ a{color:inherit} button,input{font:inherit}.wrap{width:min(var(--max),calc(100% 
       <div>
         <span class="kicker">Praga · 2–9 settembre · chill plan</span>
         <h1>7 giorni pieni, zero maratone.</h1>
-        <p class="subtitle">Itinerario interattivo con must see, quartieri da locals, più musei, app per muoversi e alternative se piove. La regola: massimo due blocchi veri al giorno.</p>
+        <p class="subtitle">Itinerario interattivo con must see, quartieri da locals, più musei, app per muoversi e alternative se piove. La regola: giornate piene, ma organizzate per zone e con pause vere.</p>
         <div class="hero-actions">
           <a class="btn" href="#itinerario">Apri itinerario</a>
           <a class="btn secondary" href="#musei">Musei</a>
@@ -49,8 +135,8 @@ a{color:inherit} button,input{font:inherit}.wrap{width:min(var(--max),calc(100% 
       </div>
       <div class="hero-bento">
         <div class="mini accent"><strong>8</strong><span>date gestite, compresa partenza</span></div>
-        <div class="mini"><strong>2</strong><span>blocchi principali massimi al giorno</span></div>
-        <div class="mini"><strong>8</strong><span>musei selezionati, non buttati a caso</span></div>
+        <div class="mini"><strong>3–4</strong><span>momenti al giorno, divisi bene per zona</span></div>
+        <div class="mini"><strong>10</strong><span>musei selezionati, non buttati a caso</span></div>
         <div class="mini"><strong>5</strong><span>app utili per spostarti senza sbatti</span></div>
         <div class="mini wide"><strong>Chill-first</strong><span>Ogni giorno ha una via principale e almeno una scorciatoia low energy.</span></div>
       </div>
@@ -82,10 +168,27 @@ a{color:inherit} button,input{font:inherit}.wrap{width:min(var(--max),calc(100% 
   </div>
 </nav>
 
+<nav class="mobile-quicknav" aria-label="Navigazione rapida mobile">
+  <a href="#itinerario">Giorni</a>
+  <a href="#musei">Musei</a>
+  <a href="#birrerie">Birra</a>
+  <a href="#trasporti">App</a>
+</nav>
+
 <main>
   <section id="itinerario" class="section">
     <div class="wrap">
       <div class="section-head"><div><h2>Itinerario giorno per giorno</h2><p class="lead">Dal 2 al 9 settembre: arrivo soft, sei giorni pieni modulabili e partenza senza ansia. Le giornate ora sono più piene: mattina, pomeriggio e sera, ma organizzate per zone così non diventa una maratona.</p></div></div>
+      <div class="mobile-day-rail" aria-label="Salta rapidamente a un giorno">
+        <a href="#day-giorno-1">G1</a>
+        <a href="#day-giorno-2">G2</a>
+        <a href="#day-giorno-3">G3</a>
+        <a href="#day-giorno-4">G4</a>
+        <a href="#day-giorno-5">G5</a>
+        <a href="#day-giorno-6">G6</a>
+        <a href="#day-giorno-7">G7</a>
+        <a href="#day-giorno-8">G8</a>
+      </div>
       <div id="daysGrid" class="grid"></div>
       <div id="noResults" class="no-results">Nessun risultato con questi filtri. Prova “Tutto” o una ricerca più semplice.</div>
     </div>
@@ -229,10 +332,11 @@ let activeFilter = 'all';
 function tagString(arr){return (arr||[]).join(' ').toLowerCase()}
 function normalize(s){return (s||'').toString().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'')}
 function tagsHtml(tags){return (tags||[]).map(t=>`<span class="tag">${t}</span>`).join('')}
+function slug(s){return normalize(s).replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')}
 
 function renderDays(){
   dayGrid.innerHTML = days.map(d=>`
-    <article class="day-card filterable" data-tags="${tagString(d.tags)} ${normalize(d.title)} ${normalize(d.summary)} ${normalize(d.area)}" data-search="${normalize(JSON.stringify(d))}">
+    <article id="day-${slug(d.day)}" class="day-card filterable" data-tags="${tagString(d.tags)} ${normalize(d.title)} ${normalize(d.summary)} ${normalize(d.area)}" data-search="${normalize(JSON.stringify(d))}">
       <div class="day-top">
         <div class="meta"><span class="badge">${d.day}</span><span class="badge alt">${d.date}</span><span class="badge gold">Energia: ${d.energy}</span></div>
         <h3>${d.title}</h3><p class="summary">${d.summary}</p><p class="muted small"><strong>Zona:</strong> ${d.area}</p>
